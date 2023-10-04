@@ -130,7 +130,7 @@
 
 ​		最终实现的界面效果如下：
 
-![效果](https://github.com/wumuwutu/Intelligent_Sorting_of_Bagged_Vegetables/blob/master/Res_imgs/img0.png)
+![效果](https://github.com/wumuwutu/Intelligent_Sorting_of_Bagged_Vegetables/blob/master/Res_imgs/img0.jpg)
 
 
 
