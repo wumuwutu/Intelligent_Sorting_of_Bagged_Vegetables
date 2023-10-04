@@ -106,13 +106,15 @@
 
 ​		具体代码见：[window.py](https://github.com/wumuwutu/Intelligent_Sorting_of_Bagged_Vegetables/blob/master/window.py)
 
-![](https://github.com/wumuwutu/Intelligent_Sorting_of_Bagged_Vegetables/blob/master/Res_imgs/img0.png)
+![](https://github.com/wumuwutu/Intelligent_Sorting_of_Bagged_Vegetables/blob/master/Res_imgs/img0.jpg)
 
 
 
 
 
 ### 4.部署
+
+
 
 #### 4.1模型转换
 
