@@ -56,6 +56,10 @@ class MainWindow(QTabWidget):
         self.result_text = QTextEdit(self.tab1)
         self.init_result_text()
 
+        # 设置说明
+        self.info_text = QTextEdit(self.tab2)
+        self.init_info_text()
+
         # 加载模型
         self.device = torch.device("cpu")
         # self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -76,8 +80,8 @@ class MainWindow(QTabWidget):
 
         # 设置类别
         # self.class_names = ["西葫芦", "香菇", "红提"]
-        self.class_names = ['broccoli', 'cabbage', 'carrot', 'cauliflower', 'courgette', 'cowpea', 'cucumber', 'eggplant',
-              'green_pumpkin', 'lentinula_edodes' 'potato', 'screw_pepper', 'tomato']
+        self.class_names = ['西兰花', '卷心菜', '胡萝卜', '菜花', '西葫芦', '豇豆', '黄瓜', '茄子',
+                            '绿南瓜', '香菇' '土豆', '螺丝椒', '西红柿']
 
     def init_img_label(self):
         self.img_label.setGeometry(int(self.ah / 7), int(self.ah / 12), int(self.ah / 1.5), int(self.ah / 1.5))
@@ -113,6 +117,16 @@ class MainWindow(QTabWidget):
 
         self.result_text.setGeometry(int(self.aw * 0.6), int(self.ah * 0.3),
                                      int(self.ah / 2), int(self.ah / 10))
+
+    def init_info_text(self):
+        self.info_text.setStyleSheet("border: 1px solid #F9F9F9;"
+                                     "background-color: #F9F9F9")
+        font = QFont("楷体", 12)
+        self.info_text.setFont(font)
+        self.info_text.setGeometry(0, 0, int(self.aw), int(self.ah))
+        with open("veg_info.txt", "r", encoding="utf-8") as f:
+            msg = f.read()
+        self.info_text.setPlainText(msg)
 
     def select_img(self):
         filename, _ = QFileDialog.getOpenFileName(self, "选择图像文件", "", "Image files (*.png *.jpg *.jpeg)")
