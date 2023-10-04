@@ -1,0 +1,15 @@
+{
+'西兰花': 'broccoli',
+'卷心菜': 'cabbage',
+'胡萝卜': 'carrot',
+'菜花': 'cauliflower',
+'西葫芦': 'courgette',
+'豇豆': 'cowpea',
+'黄瓜': 'cucumber',
+'茄子': 'eggplant',
+'绿南瓜': 'green_pumpkin',
+'香菇': 'lentinula_edodes'
+'土豆': 'potato'
+'螺丝椒': 'screw_pepper'
+'西红柿': 'tomato'
+}
