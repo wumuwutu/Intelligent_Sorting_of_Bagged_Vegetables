@@ -106,7 +106,7 @@
 
 ​		具体代码见：[window.py](https://github.com/wumuwutu/Intelligent_Sorting_of_Bagged_Vegetables/blob/master/window.py)
 
-![效果](https://github.com/wumuwutu/Intelligent_Sorting_of_Bagged_Vegetables/blob/master/Res_imgs/img1.jpg)
+![效果](https://github.com/wumuwutu/Intelligent_Sorting_of_Bagged_Vegetables/blob/master/Res_imgs/img1.jpg style="zoom:25%;")
 
 
 
