@@ -106,7 +106,9 @@
 
 ​		具体代码见：[window.py](https://github.com/wumuwutu/Intelligent_Sorting_of_Bagged_Vegetables/blob/master/window.py)
 
-<img src="../AppData/Roaming/Typora/typora-user-images/image-20231004185441228.png" alt="image-20231004185441228" style="zoom:33%;" />
+![](https://github.com/wumuwutu/Intelligent_Sorting_of_Bagged_Vegetables/blob/master/Res_imgs/img0.png)
+
+
 
 
 
@@ -126,13 +128,13 @@
 
 ​		最终实现的界面效果如下：
 
-<img src="Screenshot_20231004_192938_com.example.mycls.jpg" style="zoom:25%;" />
+![](https://github.com/wumuwutu/Intelligent_Sorting_of_Bagged_Vegetables/blob/master/Res_imgs/img1.png)
 
 
 
 ​		ps：美观不美观能用就行（相册和相机的图片还是从Huawei手机上扣的(/≧▽≦)/~┴┴）
 
-	#### 4.3项目中的几个注意事项
+#### 4.3项目中的几个注意事项
 
 ​		①如果直接将拍的照片输入给模型，手机cpu可能会因为算力不足而卡死，所以需要进行预处理，将图片缩放到512\*512或256\*256（建议和训练时的参数保持一致）
 
