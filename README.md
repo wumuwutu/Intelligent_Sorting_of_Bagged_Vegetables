@@ -126,7 +126,9 @@
 
 ​		最终实现的界面效果如下：
 
-<img src="Screenshot_20231004_192938_com.example.mycls.jpg" alt="Screenshot_20231004_192938_com.example.mycls" style="zoom: 25%;" />
+<img src="Screenshot_20231004_192938_com.example.mycls.jpg" style="zoom:25%;" />
+
+
 
 ​		ps：美观不美观能用就行（相册和相机的图片还是从Huawei手机上扣的(/≧▽≦)/~┴┴）
 
