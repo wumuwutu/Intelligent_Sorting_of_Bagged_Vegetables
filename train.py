@@ -158,14 +158,6 @@ for i in range(params["epochs"]):
     print("epoch：{}，整体测试集上的Loss：{}".format(i+1, total_test_loss), end="， ")
     print("整体测试集上的正确率：{}".format(total_accuracy / len(image_datasets["val"])))
 
-    # val_loss = val_loss / len(image_datasets["val"])
-    # val_accuracy = val_corrects.double() / len(image_datasets["val"])
-
-    # print('Epoch [{}/{}], Train Loss: {:.4f}, Val Loss: {:.4f}, Val Acc: {:.4f}'
-    #       .format(i + 1, params["epochs"], epoch_loss, val_loss, val_accuracy))
-
-    # torch.save(model.state_dict(), 'resnet50_model.pth')
-
     file_name = "resnet50_model_" + str(i) + ".pth"
     torch.save(model, file_name)
     # torch.save(model.state_dict(), file_name)
