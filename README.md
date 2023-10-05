@@ -32,7 +32,7 @@
 
 ​		对于需要的大量套袋蔬菜的照片，可以直接拍摄，也可以使用爬虫。
 
-​		具体代码见：[data_get.py](ttps://github.com/wumuwutu/Intelligent_Sorting_of_Bagged_Vegetables/blob/master/data_get.py)
+​		具体代码见：[data_get.py](https://github.com/wumuwutu/Intelligent_Sorting_of_Bagged_Vegetables/blob/master/data_get.py)
 
 ​		若使用爬虫，则每次爬取的同一类照片会存储在”download/类别名“下
 
